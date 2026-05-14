@@ -237,12 +237,12 @@ h1, h2, h3, h4 { font-family: 'Sora', sans-serif; }
             <span class="section-label">The People Behind It</span>
             <h2 class="text-4xl font-bold text-[#0d1117] mt-3">Meet the Team</h2>
             <p class="text-[#6b7a8d] mt-3 max-w-xl mx-auto">
-                AquaQueue was conceived, designed, and developed by two passionate developers dedicated to solving
+                AquaQueue was conceived, designed, and developed by a passionate team of developers dedicated to solving
                 real problems with thoughtful technology.
             </p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
             <!-- Carl -->
             <div class="glass rounded-2xl p-8 text-center reveal-left">
@@ -281,6 +281,67 @@ h1, h2, h3, h4 { font-family: 'Sora', sans-serif; }
                 </p>
                 <div class="flex justify-center gap-2">
                     <a href="mailto:t.gil0409@gmail.com" class="social-btn" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Roshele -->
+            <div class="glass rounded-2xl p-8 text-center reveal">
+                <img src="../assets/js/roshele.png"
+                     alt="Roshele Faye C. Labiaga"
+                     class="team-photo mx-auto mb-5"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="w-36 h-36 rounded-full mx-auto mb-5 items-center justify-center text-4xl font-bold text-white hidden"
+                     style="background:linear-gradient(135deg,#71C9CE,#4db8be)">R</div>
+                <h3 class="text-xl font-bold text-[#0d1117]">Roshele Faye C. Labiaga</h3>
+                <p class="text-[#71C9CE] font-semibold text-sm mt-1 mb-3">Project Manager & Documentation Lead</p>
+                <p class="text-[#6b7a8d] text-sm leading-relaxed mb-5">
+                    Roshele keeps the team aligned by managing project timelines, coordinating tasks, and maintaining
+                    clear documentation throughout the development process.
+                </p>
+                <div class="flex justify-center gap-2">
+                    <a href="mailto:labiagaroshelefaye@gmail.com" class="social-btn" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Joseph -->
+            <div class="glass rounded-2xl p-8 text-center reveal-left">
+                <img src="../assets/js/joseph.png"
+                     alt="Joseph Paradilla"
+                     class="team-photo mx-auto mb-5"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="w-36 h-36 rounded-full mx-auto mb-5 items-center justify-center text-4xl font-bold text-white hidden"
+                     style="background:linear-gradient(135deg,#71C9CE,#4db8be)">J</div>
+                <h3 class="text-xl font-bold text-[#0d1117]">Joseph Paradilla</h3>
+                <p class="text-[#71C9CE] font-semibold text-sm mt-1 mb-3">Team Member</p>
+                <p class="text-[#6b7a8d] text-sm leading-relaxed mb-5">
+                    Joseph is a dedicated member of the AquaQueue team, contributing his skills and effort to support
+                    the development and continuous improvement of the platform.
+                </p>
+                <div class="flex justify-center gap-2">
+                    <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Renz -->
+            <div class="glass rounded-2xl p-8 text-center reveal-right">
+                <img src="../assets/js/renz.png"
+                     alt="Renz"
+                     class="team-photo mx-auto mb-5"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="w-36 h-36 rounded-full mx-auto mb-5 items-center justify-center text-4xl font-bold text-white hidden"
+                     style="background:linear-gradient(135deg,#71C9CE,#4db8be)">R</div>
+                <h3 class="text-xl font-bold text-[#0d1117]">Renz</h3>
+                <p class="text-[#71C9CE] font-semibold text-sm mt-1 mb-3">Team Member</p>
+                <p class="text-[#6b7a8d] text-sm leading-relaxed mb-5">
+                    Renz supports the AquaQueue team by providing feedback, assisting with testing, and contributing
+                    ideas that help shape a better experience for every user.
+                </p>
+                <div class="flex justify-center gap-2">
                     <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
                 </div>
